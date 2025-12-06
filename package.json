@@ -1,0 +1,23 @@
+{
+  "name": "visualsentinel",
+  "version": "1.0.0",
+  "description": "![Percy Visual Testing](https://img.shields.io/badge/Visual%20Testing-Percy-blueviolet)\r ![Playwright](https://img.shields.io/badge/Test%20Automation-Playwright-green)\r ![License](https://img.shields.io/badge/license-MIT-yellow)",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mukuldev21/visualsentinel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mukuldev21/visualsentinel/issues"
+  },
+  "homepage": "https://github.com/Mukuldev21/visualsentinel#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^24.10.1"
+  }
+}
