@@ -30,10 +30,9 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
-    // percyToken: process.env.PERCY_TOKEN,
-    // percyProject: process.env.PERCY_PROJECT,
-    // percyBranch: process.env.PERCY_BRANCH,
+
     screenshot: 'only-on-failure',
+
     video: 'retain-on-failure',
 
   },
