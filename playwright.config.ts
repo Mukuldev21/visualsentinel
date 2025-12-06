@@ -30,15 +30,23 @@ export default defineConfig({
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'on-first-retry',
+    // percyToken: process.env.PERCY_TOKEN,
+    // percyProject: process.env.PERCY_PROJECT,
+    // percyBranch: process.env.PERCY_BRANCH,
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
+
   },
 
   /* Configure projects for major browsers */
   projects: [
     {
-      name: 'chromium',
+      name: 'Visual Sentinel',
       use: { ...devices['Desktop Chrome'] },
     },
 
+    // Only Chrome is required for VRT
+    /*
     {
       name: 'firefox',
       use: { ...devices['Desktop Firefox'] },
@@ -48,7 +56,7 @@ export default defineConfig({
       name: 'webkit',
       use: { ...devices['Desktop Safari'] },
     },
-
+    */
     /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',
